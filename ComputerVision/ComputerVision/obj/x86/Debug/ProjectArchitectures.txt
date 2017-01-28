@@ -1,0 +1,1 @@
+d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\ComputerVision.csproj;x86
