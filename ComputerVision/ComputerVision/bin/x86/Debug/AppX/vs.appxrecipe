@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>C29E20648C6CDC6B4352F657EC91150CE895C47B459BF7DF69A10537DED1E488</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>3747525AB7631D8BEA2677B81D726ACB2992DA8E756867DBBB4A3F157268B683</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b490ab59-6340-499c-acf3-6cf9d8b9bb17_1.0.0.0_x86__5gph543arkz5e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b490ab59-6340-499c-acf3-6cf9d8b9bb17_5gph543arkz5e!App</RegisteredUserModeAppID>
     <RegisteredPackageID>b490ab59-6340-499c-acf3-6cf9d8b9bb17</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-27T14:52:24.787</Modified>
+      <Modified>2017-01-30T02:32:22.436</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\bin\x86\Debug\ComputerVision.exe">
       <PackagePath>entrypoint\ComputerVision.exe</PackagePath>
-      <Modified>2017-01-27T14:52:23.192</Modified>
+      <Modified>2017-01-30T02:32:22.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Peacock\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -516,10 +516,6 @@
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
       <Modified>2016-11-29T18:58:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\Assets\face-logo.jpg">
-      <PackagePath>Assets\face-logo.jpg</PackagePath>
-      <Modified>2017-01-27T14:45:41.235</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\Assets\folder-icon.jpg">
       <PackagePath>Assets\folder-icon.jpg</PackagePath>
       <Modified>2017-01-27T14:26:22.581</Modified>
@@ -528,113 +524,113 @@
       <PackagePath>Assets\question-mark.jpg</PackagePath>
       <Modified>2017-01-27T14:41:19.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-01-16T02:52:52.618</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-01-15T16:03:29.295</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-15T16:03:29.310</Modified>
+      <Modified>2017-01-30T02:22:15.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2017-01-29T14:59:53.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-15T16:03:29.310</Modified>
+      <Modified>2017-01-29T14:59:45.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-15T16:03:29.326</Modified>
+      <Modified>2017-01-29T14:59:26.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-15T16:03:29.326</Modified>
+      <Modified>2017-01-29T14:59:17.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-15T16:03:29.326</Modified>
+      <Modified>2017-01-29T14:59:06.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-15T16:03:29.326</Modified>
+      <Modified>2017-01-29T14:58:49.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2017-01-16T02:52:52.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\bin\x86\Debug\ComputerVision.xr.xml">
       <PackagePath>ComputerVision.xr.xml</PackagePath>
-      <Modified>2017-01-27T14:42:07.864</Modified>
+      <Modified>2017-01-29T13:54:58.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2017-01-15T16:03:18.360</Modified>
+      <Modified>2017-01-29T13:09:43.714</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-27T14:52:23.588</Modified>
+      <Modified>2017-01-30T02:22:55.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\UserData\Documents\Visual Studio 2017\Projects\ComputerVision\ComputerVision\bin\x86\Debug\Core\ComputerVision.exe">
       <PackagePath>ComputerVision.exe</PackagePath>
-      <Modified>2017-01-27T14:52:24.779</Modified>
+      <Modified>2017-01-30T02:32:22.427</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
       <Name>Microsoft.NET.CoreRuntime.1.1</Name>
-      <Version>1.1.24301.0</Version>
+      <Version>1.1.24718.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.24301.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.24718.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
       <Name>Microsoft.NET.CoreRuntime.1.1</Name>
-      <Version>1.1.24301.0</Version>
+      <Version>1.1.24718.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.24301.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.24718.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
       <Name>Microsoft.NET.CoreRuntime.1.1</Name>
-      <Version>1.1.24301.0</Version>
+      <Version>1.1.24718.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.24301.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.24718.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.24728.0</Version>
+      <Version>14.0.24911.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24728.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24911.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.24728.0</Version>
+      <Version>14.0.24911.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24728.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24911.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.24728.0</Version>
+      <Version>14.0.24911.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24728.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24911.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

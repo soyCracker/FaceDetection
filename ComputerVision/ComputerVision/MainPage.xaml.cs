@@ -31,7 +31,7 @@ namespace ComputerVision
             this.InitializeComponent();
         }
 
-        //開啟檔案選擇器
+        //open filePicker
         public async void picturePicker()
         {
             var picker = new FileOpenPicker();
@@ -50,10 +50,10 @@ namespace ComputerVision
             }
         }
 
-        //上傳並分析圖片
+        //upload and analyze picture
         public async void uploadAndAnalyze(StorageFile picture)
         {
-            //resultText.Text = "analysing";
+            resultText.Text = "analysing";
             try
             {
                 IRandomAccessStream randomAccessStream = await picture.OpenReadAsync();
@@ -71,25 +71,28 @@ namespace ComputerVision
             }
         }
 
-        //顯示圖片描述
+        //show the description of picture
         public void setResultText(AnalysisResult analysisResult)
         {
             resultText.Text = analysisResult.Description.Captions[0].Text;
         }
 
+        //set image
         public async void setImage(StorageFile pictureFile)
         {          
             IRandomAccessStream fileStream = await pictureFile.OpenAsync(FileAccessMode.Read);
             BitmapImage bmpImage = new BitmapImage();
             bmpImage.SetSource(fileStream);
-
-            //設定Image
-            selectedImage.Source = bmpImage;          
+            selectedImage.Source = bmpImage;
+            //set canvas to resize
+            canvas.Width = bmpImage.PixelWidth;
+            canvas.Height = bmpImage.PixelHeight;
         }
 
         public void faceDraw(AnalysisResult analysisResult)
         {
             faceRectangle = analysisResult.Faces.Select(face => face.FaceRectangle).ToArray();
+            //clear last faceRectangle
             while (canvas.Children.Count > 1)
             {
                 canvas.Children.RemoveAt(canvas.Children.Count - 1);
@@ -97,6 +100,7 @@ namespace ComputerVision
             canvasControlDraw();
         }
 
+        //show the face on canvas
         public void canvasControlDraw()
         {           
             if (faceRectangle != null)

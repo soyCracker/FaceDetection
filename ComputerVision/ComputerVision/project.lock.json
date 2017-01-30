@@ -35,16 +35,29 @@
           "Microsoft.Net.Native.SharedLibrary-arm": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x64": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x86": "1.5.0-beta"
+        },
+        "build": {
+          "build/Microsoft.Net.Native.Compiler.props": {},
+          "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
       "Microsoft.Net.Native.SharedLibrary-arm/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-arm.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x64/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x64.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x86/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x86.props": {}
+        }
       },
       "Microsoft.NETCore/5.0.2": {
         "type": "package",
@@ -2284,16 +2297,29 @@
           "Microsoft.Net.Native.SharedLibrary-arm": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x64": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x86": "1.5.0-beta"
+        },
+        "build": {
+          "build/Microsoft.Net.Native.Compiler.props": {},
+          "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
       "Microsoft.Net.Native.SharedLibrary-arm/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-arm.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x64/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x64.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x86/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x86.props": {}
+        }
       },
       "Microsoft.NETCore/5.0.2": {
         "type": "package",
@@ -4630,16 +4656,29 @@
           "Microsoft.Net.Native.SharedLibrary-arm": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x64": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x86": "1.5.0-beta"
+        },
+        "build": {
+          "build/Microsoft.Net.Native.Compiler.props": {},
+          "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
       "Microsoft.Net.Native.SharedLibrary-arm/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-arm.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x64/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x64.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x86/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x86.props": {}
+        }
       },
       "Microsoft.NETCore/5.0.2": {
         "type": "package",
@@ -7015,16 +7054,29 @@
           "Microsoft.Net.Native.SharedLibrary-arm": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x64": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x86": "1.5.0-beta"
+        },
+        "build": {
+          "build/Microsoft.Net.Native.Compiler.props": {},
+          "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
       "Microsoft.Net.Native.SharedLibrary-arm/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-arm.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x64/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x64.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x86/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x86.props": {}
+        }
       },
       "Microsoft.NETCore/5.0.2": {
         "type": "package",
@@ -9370,16 +9422,29 @@
           "Microsoft.Net.Native.SharedLibrary-arm": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x64": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x86": "1.5.0-beta"
+        },
+        "build": {
+          "build/Microsoft.Net.Native.Compiler.props": {},
+          "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
       "Microsoft.Net.Native.SharedLibrary-arm/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-arm.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x64/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x64.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x86/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x86.props": {}
+        }
       },
       "Microsoft.NETCore/5.0.2": {
         "type": "package",
@@ -11764,16 +11829,29 @@
           "Microsoft.Net.Native.SharedLibrary-arm": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x64": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x86": "1.5.0-beta"
+        },
+        "build": {
+          "build/Microsoft.Net.Native.Compiler.props": {},
+          "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
       "Microsoft.Net.Native.SharedLibrary-arm/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-arm.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x64/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x64.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x86/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x86.props": {}
+        }
       },
       "Microsoft.NETCore/5.0.2": {
         "type": "package",
@@ -14119,16 +14197,29 @@
           "Microsoft.Net.Native.SharedLibrary-arm": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x64": "1.5.0-beta",
           "Microsoft.Net.Native.SharedLibrary-x86": "1.5.0-beta"
+        },
+        "build": {
+          "build/Microsoft.Net.Native.Compiler.props": {},
+          "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
       "Microsoft.Net.Native.SharedLibrary-arm/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-arm.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x64/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x64.props": {}
+        }
       },
       "Microsoft.Net.Native.SharedLibrary-x86/1.5.0-beta": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Native.SharedLibrary-x86.props": {}
+        }
       },
       "Microsoft.NETCore/5.0.2": {
         "type": "package",
@@ -24939,7 +25030,7 @@
       "projectName": "ComputerVision",
       "projectPath": "d:\\UserData\\Documents\\Visual Studio 2017\\Projects\\ComputerVision\\ComputerVision\\ComputerVision.csproj",
       "projectJsonPath": "d:\\UserData\\Documents\\Visual Studio 2017\\Projects\\ComputerVision\\ComputerVision\\project.json",
-      "outputType": "UAP"
+      "projectStyle": "ProjectJson"
     },
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.0-beta2",

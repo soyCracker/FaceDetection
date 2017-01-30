@@ -14,13 +14,11 @@
         </Grid.ColumnDefinitions>
 
         <Grid x:ConnectionId='2' x:Name="pictureDisplay" Background="Black" Grid.Column="0">
-            <ScrollViewer x:ConnectionId='6' x:Name="scrollViewer" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" >
-                <Grid x:ConnectionId='7' x:Name="ContentPanel" Width="2000" Height="2000">
-                    <Canvas x:ConnectionId='8'  x:Name="canvas">
-                        <Image x:ConnectionId='9' x:Name="selectedImage" Source="/Assets/question-mark.jpg" Stretch="None"/>
-                    </Canvas>
-                </Grid>
-            </ScrollViewer>
+            <Viewbox Stretch="Uniform">
+                <Canvas x:ConnectionId='6'  x:Name="canvas" Width="430" Height="430">
+                    <Image x:ConnectionId='7' x:Name="selectedImage" Source="/Assets/question-mark.jpg" Stretch="Uniform"/>
+                </Canvas>
+            </Viewbox>
             
         </Grid>
 
