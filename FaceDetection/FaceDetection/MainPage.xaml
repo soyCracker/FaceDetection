@@ -1,0 +1,89 @@
+﻿<Page
+    x:Class="FaceDetection.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FaceDetection"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="WideState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="720"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="theSplitView.DisplayMode" Value="CompactInline"/>
+                        <Setter Target="theSplitView.IsPaneOpen" Value="True"/>
+                        <Setter Target="Hamburger.Visibility" Value="Collapsed"/>
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:Name="NarrowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="theSplitView.DisplayMode" Value="Overlay"/>
+                        <Setter Target="Hamburger.Visibility" Value="Visible"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <Button Name="Hamburger" 
+                FontFamily="Segoe MDL2 Assets" 
+                Content="&#xE700;" 
+                FontSize="18" 
+                VerticalAlignment="Top"
+                Margin="10,10,0,0"
+                Click="Hamburger_Click"/>
+
+        <SplitView Name="theSplitView"             
+                   DisplayMode="CompactInline" 
+                   OpenPaneLength="200" 
+                   CompactPaneLength="56" 
+                   HorizontalAlignment="Left">
+
+            <SplitView.Pane>
+                <ListBox Name="MenuListBox" SelectionMode="Single">
+                    <ListBoxItem Name="ListBoxItem0">
+                        <Button Name="ListBoxHamburger" 
+                                FontFamily="Segoe MDL2 Assets" 
+                                Content="&#xE700;" 
+                                FontSize="18"                               
+                                Click="Hamburger_Click"/>
+                    </ListBoxItem>
+
+                    <ListBoxItem Name="ListBoxItem1">
+                        <Button x:Name="PickButton" Click="PickButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="1">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xEC50;" FontSize="18"/>
+                        </Button>
+                    </ListBoxItem>
+                </ListBox>
+            </SplitView.Pane>
+            <Grid Margin="100,50,40,50">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Grid x:Name="PictureDisplay" Grid.Row="0" HorizontalAlignment="Center">
+                    <Viewbox Stretch="Uniform">
+                        <Canvas  x:Name="ImageCanvas" Width="720" Height="500">
+                            <Image x:Name="SelectedImage" Stretch="Uniform" Source="/Assets/default.jpg"/>
+                        </Canvas>
+                    </Viewbox>
+                </Grid>
+                <Border Grid.Row="1" Background="#11000000" Margin="0,10,0,0">
+                    <TextBlock x:Name="ResultText"                          
+                               Text="" 
+                               TextWrapping="Wrap" 
+                               FontSize="30"                                
+                               VerticalAlignment="Top"/>
+                </Border>
+            </Grid>
+        </SplitView>
+    </Grid>
+</Page>
