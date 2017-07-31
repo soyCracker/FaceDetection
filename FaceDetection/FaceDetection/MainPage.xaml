@@ -17,7 +17,6 @@
                     <VisualState.Setters>
                         <Setter Target="theSplitView.DisplayMode" Value="CompactInline"/>
                         <Setter Target="theSplitView.IsPaneOpen" Value="True"/>
-                        <Setter Target="Hamburger.Visibility" Value="Collapsed"/>
                     </VisualState.Setters>
                 </VisualState>
 
@@ -26,23 +25,15 @@
                         <AdaptiveTrigger MinWindowWidth="0"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="theSplitView.DisplayMode" Value="Overlay"/>
-                        <Setter Target="Hamburger.Visibility" Value="Visible"/>
+                        <Setter Target="theSplitView.DisplayMode" Value="CompactOverlay"/>
+                        <Setter Target="theSplitView.IsPaneOpen" Value="False"/>
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
 
-        <Button Name="Hamburger" 
-                FontFamily="Segoe MDL2 Assets" 
-                Content="&#xE700;" 
-                FontSize="18" 
-                VerticalAlignment="Top"
-                Margin="10,10,0,0"
-                Click="Hamburger_Click"/>
-
         <SplitView Name="theSplitView"             
-                   DisplayMode="CompactInline" 
+                   DisplayMode="CompactInline"
                    OpenPaneLength="200" 
                    CompactPaneLength="56" 
                    HorizontalAlignment="Left">
@@ -54,17 +45,22 @@
                                 FontFamily="Segoe MDL2 Assets" 
                                 Content="&#xE700;" 
                                 FontSize="18"                               
-                                Click="Hamburger_Click"/>
+                                Click="Hamburger_Click"
+                                Background="#00000000"/>
                     </ListBoxItem>
 
                     <ListBoxItem Name="ListBoxItem1">
-                        <Button x:Name="PickButton" Click="PickButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="1">
+                        <Button x:Name="PickButton" 
+                                Click="PickButton_Click" 
+                                HorizontalAlignment="Center" 
+                                VerticalAlignment="Bottom" 
+                                Background="#00000000">
                             <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xEC50;" FontSize="18"/>
                         </Button>
                     </ListBoxItem>
                 </ListBox>
             </SplitView.Pane>
-            <Grid Margin="100,50,40,50">
+            <Grid Margin="20,50,30,50">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="3*"/>
                     <RowDefinition Height="1*"/>
@@ -76,12 +72,13 @@
                         </Canvas>
                     </Viewbox>
                 </Grid>
-                <Border Grid.Row="1" Background="#11000000" Margin="0,10,0,0">
+                <Border Grid.Row="1" Background="#10000000" Margin="0,10,0,0">
                     <TextBlock x:Name="ResultText"                          
                                Text="" 
                                TextWrapping="Wrap" 
                                FontSize="30"                                
-                               VerticalAlignment="Top"/>
+                               VerticalAlignment="Top"
+                               IsTextSelectionEnabled="True"/>
                 </Border>
             </Grid>
         </SplitView>
