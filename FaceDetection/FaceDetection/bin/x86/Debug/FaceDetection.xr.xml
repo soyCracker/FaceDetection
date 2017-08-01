@@ -74,7 +74,6 @@
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
-      <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Child" />
     </RootType>

@@ -69,6 +69,7 @@ namespace FaceDetection
             catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
+                ResultText.Text = "maybe no network connection";
             }
         }
 
@@ -85,7 +86,7 @@ namespace FaceDetection
             BitmapImage bmpImage = new BitmapImage();
             bmpImage.SetSource(fileStream);
             SelectedImage.Source = bmpImage;
-            //set canvas to resize
+            //canvas resize
             ImageCanvas.Width = bmpImage.PixelWidth;
             ImageCanvas.Height = bmpImage.PixelHeight;
         }
@@ -101,7 +102,7 @@ namespace FaceDetection
             canvasControlDraw();
         }
 
-        //show the face on canvas
+        //mark the face on canvas
         public void canvasControlDraw()
         {
             if (faceRectangle != null)

@@ -60,6 +60,7 @@
                     </ListBoxItem>
                 </ListBox>
             </SplitView.Pane>
+            
             <Grid Margin="20,50,30,50">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="3*"/>
@@ -72,13 +73,14 @@
                         </Canvas>
                     </Viewbox>
                 </Grid>
-                <Border Grid.Row="1" Background="#10000000" Margin="0,10,0,0">
+                <Border Grid.Row="1" Margin="0,10,0,0">
                     <TextBlock x:Name="ResultText"                          
-                               Text="" 
+                               Text="FaceDetection" 
                                TextWrapping="Wrap" 
                                FontSize="30"                                
                                VerticalAlignment="Top"
-                               IsTextSelectionEnabled="True"/>
+                               IsTextSelectionEnabled="True"
+                               FontFamily="MV Boli"/>
                 </Border>
             </Grid>
         </SplitView>
