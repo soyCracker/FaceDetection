@@ -23,7 +23,7 @@ namespace FaceDetection
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private readonly IVisionServiceClient visionClient = new VisionServiceClient("13c7e151ac374642bd998e40625804f9");
+        private readonly IVisionServiceClient visionClient = new VisionServiceClient("your key");
         FaceRectangle[] faceRectangle;
 
         public MainPage()
