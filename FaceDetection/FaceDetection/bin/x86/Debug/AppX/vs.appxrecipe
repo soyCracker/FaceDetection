@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\UserData\Documents\Visual Studio 2017\Projects\FaceDetection\FaceDetection\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-01T01:52:06.611</Modified>
+      <Modified>2017-08-07T14:15:37.189</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\UserData\Documents\Visual Studio 2017\Projects\FaceDetection\FaceDetection\bin\x86\Debug\FaceDetection.exe">
       <PackagePath>entrypoint\FaceDetection.exe</PackagePath>
-      <Modified>2017-08-01T01:52:04.937</Modified>
+      <Modified>2017-08-07T14:15:36.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Peacock\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -723,11 +723,11 @@
     <AppxPackagedFile Include="D:\UserData\Documents\Visual Studio 2017\Projects\FaceDetection\FaceDetection\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-01T01:52:06.022</Modified>
+      <Modified>2017-08-07T14:15:36.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UserData\Documents\Visual Studio 2017\Projects\FaceDetection\FaceDetection\bin\x86\Debug\Core\FaceDetection.exe">
       <PackagePath>FaceDetection.exe</PackagePath>
-      <Modified>2017-08-01T01:52:06.566</Modified>
+      <Modified>2017-08-07T14:15:37.180</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

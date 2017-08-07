@@ -23,12 +23,11 @@ namespace FaceDetection
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private readonly IVisionServiceClient visionClient = new VisionServiceClient("your key");
+        private readonly IVisionServiceClient visionClient = new VisionServiceClient("13c7e151ac374642bd998e40625804f9");
         FaceRectangle[] faceRectangle;
 
         public MainPage()
-        {
-            
+        {        
             this.InitializeComponent();
         }
 
@@ -54,7 +53,7 @@ namespace FaceDetection
         //upload and analyze picture
         public async void uploadAndAnalyze(StorageFile picture)
         {
-            ResultText.Text = "analysing";
+            ResultText.Text = "analysing.....";
             try
             {
                 IRandomAccessStream randomAccessStream = await picture.OpenReadAsync();

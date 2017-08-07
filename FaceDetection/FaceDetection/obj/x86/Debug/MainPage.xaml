@@ -60,6 +60,7 @@
                     </ListBoxItem>
                 </ListBox>
             </SplitView.Pane>
+            
             <Grid Margin="20,50,30,50">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="3*"/>

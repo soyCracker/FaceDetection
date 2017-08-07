@@ -29,7 +29,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.2": {
+      "Microsoft.Net.Native.Compiler/1.6.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.1",
@@ -239,14 +239,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.3": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.2",
+          "Microsoft.Net.Native.Compiler": "1.6.3",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -2276,7 +2276,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.2": {
+      "Microsoft.Net.Native.Compiler/1.6.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.1",
@@ -2433,14 +2433,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.3": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.2",
+          "Microsoft.Net.Native.Compiler": "1.6.3",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -4595,7 +4595,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.2": {
+      "Microsoft.Net.Native.Compiler/1.6.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.1",
@@ -4753,14 +4753,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.3": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.2",
+          "Microsoft.Net.Native.Compiler": "1.6.3",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -6953,7 +6953,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.2": {
+      "Microsoft.Net.Native.Compiler/1.6.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.1",
@@ -7113,14 +7113,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.3": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.2",
+          "Microsoft.Net.Native.Compiler": "1.6.3",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -9281,7 +9281,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.2": {
+      "Microsoft.Net.Native.Compiler/1.6.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.1",
@@ -9442,14 +9442,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.3": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.2",
+          "Microsoft.Net.Native.Compiler": "1.6.3",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -11648,7 +11648,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.2": {
+      "Microsoft.Net.Native.Compiler/1.6.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.1",
@@ -11808,14 +11808,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.3": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.2",
+          "Microsoft.Net.Native.Compiler": "1.6.3",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -13976,7 +13976,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.2": {
+      "Microsoft.Net.Native.Compiler/1.6.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.1",
@@ -14137,14 +14137,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.3": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.2",
+          "Microsoft.Net.Native.Compiler": "1.6.3",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -16374,14 +16374,14 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Microsoft.Net.Native.Compiler/1.6.2": {
-      "sha512": "28VesDpHpRatYNlydGB2JbCpjOo2Ils4v2J/O46lHKpLgmCrf6UzAwWnUZq5fhLzJETWb+a0AlENY3hABASQEg==",
+    "Microsoft.Net.Native.Compiler/1.6.3": {
+      "sha512": "zkoXaMVk0VKITKTSp692mvbBhVzZbmbsm3qzpyeZIYeMqNFBkmiBZRHYcnBP5iyooBXNL7E9F53ES9BipYFLDg==",
       "type": "package",
-      "path": "microsoft.net.native.compiler/1.6.2",
+      "path": "microsoft.net.native.compiler/1.6.3",
       "files": [
         "build/Microsoft.Net.Native.Compiler.props",
         "build/Microsoft.Net.Native.Compiler.targets",
-        "microsoft.net.native.compiler.1.6.2.nupkg.sha512",
+        "microsoft.net.native.compiler.1.6.3.nupkg.sha512",
         "microsoft.net.native.compiler.nuspec",
         "tools/LibraryXML/Callisto.rd.xml",
         "tools/LibraryXML/GalaSoft.MvvmLight.Extras.Win8.rd.xml",
@@ -18611,14 +18611,14 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.UniversalWindowsPlatform/5.3.3": {
-      "sha512": "aCy8WhdcWqIl+gUoY905OWPCP1NqVOtT4Oejn7SIZb9KPKkB5cUfvLEmsY3xwud0TIaJaExKTUhrFluzKtSblQ==",
+    "Microsoft.NETCore.UniversalWindowsPlatform/5.3.4": {
+      "sha512": "4qivj1vvrGHSNdNLzOnh4ldEPFXQATsYJUOia6GQEnXFmvku3GYTXSs1958EE+jk39ODiUZyWK0P0qPrso2Vfg==",
       "type": "package",
-      "path": "microsoft.netcore.universalwindowsplatform/5.3.3",
+      "path": "microsoft.netcore.universalwindowsplatform/5.3.4",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "microsoft.netcore.universalwindowsplatform.5.3.3.nupkg.sha512",
+        "microsoft.netcore.universalwindowsplatform.5.3.4.nupkg.sha512",
         "microsoft.netcore.universalwindowsplatform.nuspec"
       ]
     },
@@ -24630,7 +24630,7 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.15063": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.3.3",
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.3.4",
       "Microsoft.ProjectOxford.Vision >= 1.0.393",
       "Win2D.uwp >= 1.21.0"
     ]
@@ -24658,7 +24658,7 @@
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": {
         "target": "Package",
-        "version": "[5.3.3, )"
+        "version": "[5.3.4, )"
       },
       "Microsoft.ProjectOxford.Vision": {
         "target": "Package",
@@ -24674,7 +24674,7 @@
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
-            "version": "[5.3.3, )"
+            "version": "[5.3.4, )"
           },
           "Microsoft.ProjectOxford.Vision": {
             "target": "Package",
